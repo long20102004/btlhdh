@@ -61,12 +61,4 @@ public class TaskManagerApp {
         return deleteButton;
     }
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                new TaskManagerApp().run();
-            }
-        });
-    }
 }
